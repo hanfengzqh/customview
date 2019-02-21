@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <!--<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#2d3134"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/page_provide"
+            android:textColor="#7d7d7d"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/technical_support"
+            android:textColor="#7d7d7d"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+    <com.d.lib.refreshlayout.RefreshLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:lib_refresh_refreshlayout_enable="true"
+        app:lib_refresh_refreshlayout_gravity="top|left|right|bottom">
+
+        <WebView
+            android:id="@+id/webview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </WebView>
+    </com.d.lib.refreshlayout.RefreshLayout>-->
+
+    <com.d.refreshlayout.FilletRecyclingImageView
+        android:id="@+id/llview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/skin_game_pvp_top_view_new_bg_calculate" />
+
+    <!--<com.d.refreshlayout.PorterDuffXfermodeView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="30dp" />-->
+
+    <ImageView
+        android:id="@+id/imageview"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="10dp" />
+
+    <com.d.refreshlayout.MATRIX_SAVE_FLAG_View
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp" />
+
+
+</LinearLayout>
