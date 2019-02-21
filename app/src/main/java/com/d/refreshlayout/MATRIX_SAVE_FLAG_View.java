@@ -22,12 +22,12 @@ public class MATRIX_SAVE_FLAG_View extends View {
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
 
-        canvas.save(Canvas.MATRIX_SAVE_FLAG);
-        canvas.rotate(40);
-        canvas.drawRect(100, 0, 200, 100, mPaint);
-        canvas.restore();
+        canvas.save(Canvas.MATRIX_SAVE_FLAG);//只保存矩阵
+        canvas.rotate(40);//旋转
+        canvas.drawRect(100, 0, 200, 100, mPaint);//绘制
+        canvas.restore();//将画布还原
 
         mPaint.setColor(Color.YELLOW);//黄色
-        canvas.drawRect(100, 0, 200, 100, mPaint);
+        canvas.drawRect(100, 0, 200, 100, mPaint);//绘制
     }
 }
