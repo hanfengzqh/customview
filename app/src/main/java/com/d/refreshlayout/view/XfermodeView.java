@@ -66,8 +66,8 @@ public class XfermodeView extends View {
         Paint p = new Paint(Paint.ANTI_ALIAS_FLAG);
 
         p.setColor(Color.BLUE);
-        c.drawRect(0, 0, w, h, p);
-//        c.drawOval(new RectF(0, 0, w, h), p);//在(0,0,400,400)的区域绘制一个蓝色的圆形
+//        c.drawRect(0, 0, w, h, p);
+        c.drawOval(new RectF(0, 0, w, h), p);//在(0,0,400,400)的区域绘制一个蓝色的圆形
         return bm;
     }
 
