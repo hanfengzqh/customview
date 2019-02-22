@@ -1,4 +1,4 @@
-package com.d.refreshlayout;
+package com.d.refreshlayout.view;
 
 import android.content.Context;
 import android.graphics.Canvas;

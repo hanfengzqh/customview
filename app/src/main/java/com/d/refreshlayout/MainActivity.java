@@ -66,10 +66,18 @@ public class MainActivity extends AppCompatActivity implements WebViewActivity.T
                 startActivity(intent);
             }
         });
+
+        findViewById(R.id.customview).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, ViewTestActivity.class));
+            }
+        });
+
     }
 
     @Override
     public void test() {
-        Log.e("zqh","wowowoowowow");
+        Log.e("zqh", "wowowoowowow");
     }
 }

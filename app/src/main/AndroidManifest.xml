@@ -27,6 +27,7 @@
         <activity android:name="com.d.refreshlayout.activity.RecyclerViewActivity" />
         <activity android:name="com.d.refreshlayout.activity.ScrollViewActivity" />
         <activity android:name="com.d.refreshlayout.activity.WebViewActivity" />
+        <activity android:name="com.d.refreshlayout.ViewTestActivity" />
     </application>
 
 </manifest>
