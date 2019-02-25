@@ -8,10 +8,20 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />-->
 
-    <com.d.refreshlayout.view.LevelView
+    <!--<com.d.refreshlayout.view.LevelView
         android:layout_marginTop="10dp"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent" />-->
 
+    <com.d.refreshlayout.view.Leve2View
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp" />
+
+    <!--<ImageView
+        android:id="@+id/testimageview"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center" />-->
 
 </LinearLayout>
