@@ -27,10 +27,10 @@ public class Leve2View extends View {
         setLayerType(View.LAYER_TYPE_SOFTWARE, null);
         mPaint = new Paint();
         mPaint.setColor(Color.RED);
-        mPaint.setAntiAlias(true);
-        mPaint.setTextSize(25);
+        mPaint.setAntiAlias(true);//设置支持抗锯齿效果
+        mPaint.setTextSize(25);//设置文字大小
         mPaint.setStrokeWidth(5);//设置画笔宽度
-        mPaint.setStyle(Paint.Style.STROKE);
+        mPaint.setStyle(Paint.Style.STROKE);//设置画笔填充样式
 
     }
 
@@ -59,25 +59,26 @@ public class Leve2View extends View {
 
         //构造两个画笔，一个红色，一个绿色
         Paint paint_green = generatePaint(Color.GREEN, Paint.Style.STROKE, 5);
-        Paint paint_red   = generatePaint(Color.RED, Paint.Style.STROKE, 5);
+        Paint paint_red = generatePaint(Color.RED, Paint.Style.STROKE, 5);
 
         Rect rect3 = new Rect(0, 220, 300, 320);
 
-        canvas.drawRect(rect3,paint_green);
-        canvas.translate(100,50);
-        canvas.drawRect(rect3,paint_red);
+        canvas.drawRect(rect3, paint_green);
+        canvas.translate(100, 50);
+        canvas.drawRect(rect3, paint_red);
 
         Paint paint_green1 = generatePaint(Color.GREEN, Paint.Style.FILL, 5);
-        Paint paint_red1   = generatePaint(Color.RED, Paint.Style.STROKE, 5);
-        Rect rect4 = new Rect(300,430,500,500);
+        Paint paint_red1 = generatePaint(Color.RED, Paint.Style.STROKE, 5);
+        Rect rect4 = new Rect(300, 430, 500, 500);
 
-        canvas.drawRect(rect4,paint_green1);
+        canvas.drawRect(rect4, paint_green1);
         canvas.rotate(30);
-        canvas.drawRect(rect4,paint_red1);
+        canvas.drawRect(rect4, paint_red1);
 
 
     }
 
+    //使用微积分形式处理显示区域
     private void drawRegion(Region region, Canvas canvas) {
         RegionIterator regionIterator = new RegionIterator(region);
         Rect rect = new Rect();
@@ -85,10 +86,6 @@ public class Leve2View extends View {
             canvas.drawRect(rect, mPaint);
         }
     }
-
-
-
-
 
     private Paint generatePaint(int color, Paint.Style style, int width) {
         Paint paint = new Paint();
