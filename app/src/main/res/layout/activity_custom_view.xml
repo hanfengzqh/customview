@@ -17,11 +17,19 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp" />-->
+
     <!--<com.d.refreshlayout.view.Leve3View
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp" />-->
-    <com.d.refreshlayout.view.Leve4View
+
+    <!--<com.d.refreshlayout.view.Leve4View
+        android:id="@+id/view_wave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp" />-->
+
+    <com.d.refreshlayout.view.Leve5View
         android:id="@+id/view_wave"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

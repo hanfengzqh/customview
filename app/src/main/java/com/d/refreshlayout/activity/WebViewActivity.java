@@ -88,6 +88,7 @@ public class WebViewActivity extends AppCompatActivity {
                 }
             }
         });
+
     }
 
 
@@ -130,7 +131,6 @@ public class WebViewActivity extends AppCompatActivity {
  * https://blog.csdn.net/harryweasley/article/details/50132385/
  * https://blog.csdn.net/oyuanwa/article/details/51197546
  * https://www.cnblogs.com/dasusu/p/8047172.html
- *
  *
  *
  * https://blog.csdn.net/EleganceKing/article/details/80989368
