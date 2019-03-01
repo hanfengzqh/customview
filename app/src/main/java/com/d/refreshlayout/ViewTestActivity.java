@@ -14,8 +14,8 @@ public class ViewTestActivity extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_custom_view);
-        Leve5View testImage = findViewById(R.id.view_wave);
-        testImage.startAnimator();
+//        Leve5View testImage = findViewById(R.id.view_wave);
+//        testImage.startAnimator();
 
     }
 }
