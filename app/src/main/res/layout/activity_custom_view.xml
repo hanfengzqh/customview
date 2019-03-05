@@ -8,6 +8,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />-->
 
+    <com.d.refreshlayout.view.Xfermode2View
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
     <!--<com.d.refreshlayout.view.LevelView
         android:layout_marginTop="10dp"
         android:layout_width="match_parent"
@@ -35,11 +39,11 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp" />-->
 
-    <com.d.refreshlayout.view.Leve6View
+    <!--<com.d.refreshlayout.view.Level7View
         android:id="@+id/view_wave"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp" />
+        android:layout_marginTop="10dp" />-->
 
     <!--<ImageView
         android:id="@+id/testimageview"

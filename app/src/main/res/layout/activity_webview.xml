@@ -64,7 +64,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:scaleType="centerCrop"
-                android:src="@mipmap/skin_game_pvp_top_view_new_bg_calculate" />
+                 />
 
             <!--<com.d.refreshlayout.PorterDuffXfermodeView
                 android:layout_width="100dp"
